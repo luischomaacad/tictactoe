@@ -10,8 +10,21 @@
 }
 
 .square {
-  border: 1px solid black;
   height: 100px;
   width: 100px;
 }
 
+#square-0, #square-2, #square-3, #square-5 {
+  border-bottom:3px solid dodgerblue;
+}
+
+#square-1, #square-4 {
+  border:3px solid dodgerblue;
+  border-top: none;
+}
+
+#square-7 {
+  border:3px solid dodgerblue;
+  border-bottom: none;
+  border-top: none;  
+}

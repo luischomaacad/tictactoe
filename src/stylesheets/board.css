@@ -14,17 +14,53 @@
   width: 100px;
 }
 
+.square:hover {
+  cursor: pointer;
+  background-color: lightblue;
+}
+
 #square-0, #square-2, #square-3, #square-5 {
-  border-bottom:3px solid dodgerblue;
+  border-bottom:3px solid purple;
 }
 
 #square-1, #square-4 {
-  border:3px solid dodgerblue;
+  border:3px solid purple;
   border-top: none;
 }
 
 #square-7 {
-  border:3px solid dodgerblue;
+  border:3px solid purple;
   border-bottom: none;
   border-top: none;  
+}
+
+.winner-title{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.reset-button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.reset-button {
+  background-color: purple;
+  height: 50px;
+  width: 220px;
+  border-radius: 40px;
+  border: 0px solid black;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background: darkorchid;
+}
+
+.square-symbol {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
 }

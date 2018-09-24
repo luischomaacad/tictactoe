@@ -2,6 +2,7 @@
   "name": "tictactoe",
   "version": "0.1.0",
   "private": true,
+  "homepage":"http//gustavosantana.kinghost.net/jogodavelha",
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "react": "^16.5.0",
